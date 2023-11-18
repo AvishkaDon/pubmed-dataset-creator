@@ -5,3 +5,5 @@ data/*
 data_pkl/*
 logs/*
 dev/*
+.DS_Store
+__pycache__/*
