@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pubmed"
+version = "0.1.0"
+description = "accessing the pubmed data"
+authors = ["AvishkaDon <avishkadon21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+biopython = "^1.81"
+pandas = "^2.1.1"
+gensim = "^4.3.2"
+nltk = "^3.8.1"
+pint = "^0.22"
+pyldavis = "^3.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

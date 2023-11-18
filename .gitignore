@@ -1,0 +1,7 @@
+*.log
+credentials.txt
+#ignore the data folders
+data/*
+data_pkl/*
+logs/*
+dev/*
